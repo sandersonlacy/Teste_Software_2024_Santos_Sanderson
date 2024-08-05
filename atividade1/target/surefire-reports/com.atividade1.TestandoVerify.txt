@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.atividade1.TestandoVerify
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec <<< FAILURE!
+com.atividade1.TestandoVerify.teste()  Time elapsed: 0.033 sec  <<< FAILURE!
+org.mockito.exceptions.verification.TooManyActualInvocations: 
+bar.doSomething(<Capturing argument>);
+Wanted 1 time:
+-> at com.atividade1.TestandoVerify.teste(TestandoVerify.java:39)
+But was 2 times:
+-> at com.atividade1.TestandoVerify.teste(TestandoVerify.java:33)
+-> at com.atividade1.TestandoVerify.teste(TestandoVerify.java:34)
+	at com.atividade1.TestandoVerify.teste(TestandoVerify.java:39)
+
